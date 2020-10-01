@@ -13,7 +13,7 @@ export class LoginComponent{
     constructor() { }
 
     verwerk() {
-        console.log("Er is op de knop geklikt!");
-        this.message = "Logging in " + this.username + "...";
+        console.log('Er is op de knop geklikt!');
+        this.message = 'Logging in ' + this.username + '...';
     }
 }
